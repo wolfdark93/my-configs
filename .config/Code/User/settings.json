@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "Owlet (Night Owl)",
+    "todo-tree.tree.showScanModeButton": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "gitlens.codeLens.enabled": false,
+    "editor.minimap.enabled": false,
+    "todo-tree.highlights.backgroundColourScheme": [
+        "RED",
+        "GREEN",
+        "PINK",
+        "YELLOW"
+    ],
+    "todo-tree.highlights.foregroundColourScheme": [
+        "WHITE",
+        "WHITE",
+        "BLACK",
+        "BLACK"
+    ],
+    "todo-tree.general.tags": [
+        "BUG:",
+        "HACK:",
+        "FIXME:",
+        "TODO:"
+    ],
+    "todo-tree.highlights.useColourScheme": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true
+}
