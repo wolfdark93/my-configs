@@ -1,0 +1,14 @@
+#!/bin/sh
+code --install-extension Dart-Code.dart-code
+code --install-extension Dart-Code.flutter
+code --install-extension eamodio.gitlens
+code --install-extension Gruntfuggly.todo-tree
+code --install-extension itsjonq.owlet
+code --install-extension me-dutour-mathieu.vscode-firebase
+code --install-extension Mikael.Angular-BeastCode
+code --install-extension MikeBovenlander.formate
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension Nash.awesome-flutter-snippets
+code --install-extension PKief.material-icon-theme
+code --install-extension ritwickdey.LiveServer
