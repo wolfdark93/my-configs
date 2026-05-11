@@ -1,5 +1,5 @@
 # my-configs
-my config files for vim, kde shortcuts, kitty, fish shell, cava and others
+my config files for nvim, fish and others
 
 ## Usage
-set the root of this repo in the "~/" patch
+just copy the folder .config/  in your user folder ("~/" patch) and replace existins file if is needed (for safe, before create a backup of yours actual config files).
