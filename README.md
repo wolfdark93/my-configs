@@ -1,5 +1,52 @@
-# my-configs
-my config files for nvim, fish and others
+# My Configs (Dotfiles)
 
-## Usage
-just copy the folder .config/  in your user folder ("~/" patch) and replace existins file if is needed (for safe, before create a backup of yours actual config files).
+These are my personal configuration files (dotfiles) for Neovim, Fish shell, Kitty, and more. Optimized for a productive and aesthetically pleasing Linux environment.
+
+## 🚀 Tools Included
+
+- **Neovim (`nvim`)**: A modular configuration powered by `lazy.nvim` and the `NeoSolarized` colorscheme.
+- **Fish Shell**: Feature-rich shell configuration including:
+    - A custom multi-line prompt with Git status, battery, and background job indicators.
+    - Comprehensive Git aliases (`ga`, `gp`, `gst`, `gco`, etc.).
+- **Kitty**: Performance-focused terminal emulator configuration.
+- **Cava**: Audio visualizer configuration for a cohesive desktop look.
+
+## 🛠️ Installation
+
+> [!WARNING]
+> Back up your existing configuration files before proceeding.
+
+To apply these configurations, clone the repository. You can copy the entire `.config` directory or just the specific configurations you need to your home folder:
+
+```bash
+# Clone the repository
+git clone https://github.com/wolfdark93/my-configs.git
+
+# Copy all configurations to ~/.config/
+cp -r .config ~/
+
+# Or copy only what you need, for example, just Neovim:
+cp -r .config/nvim ~/.config/
+```
+
+### Alternative: Using Symbolic Links
+If you want to keep your local settings synced with this repository, use symbolic links:
+
+```bash
+ln -s $(pwd)/.config/nvim ~/.config/nvim
+ln -s $(pwd)/.config/fish ~/.config/fish
+ln -s $(pwd)/.config/kitty ~/.config/kitty
+ln -s $(pwd)/.config/cava ~/.config/cava
+```
+
+## ⌨️ Shell Aliases (Fish)
+
+The configuration includes several time-saving aliases for Git:
+- `ga`: `git add`
+- `gp`: `git push`
+- `gpl`: `git pull`
+- `gst`: `git status`
+- `gco`: `git checkout`
+- ... and many others found in `.config/fish/functions/`.
+
+---
