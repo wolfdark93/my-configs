@@ -10,6 +10,13 @@ These are my personal configuration files (dotfiles) for Neovim, Fish shell, Kit
     - Comprehensive Git aliases (`ga`, `gp`, `gst`, `gco`, etc.).
 - **Kitty**: Performance-focused terminal emulator configuration.
 - **Cava**: Audio visualizer configuration for a cohesive desktop look.
+- **Music Ecosystem (MPD)**: A fully automated, lightweight terminal music setup.
+    - **rmpc**: Beautiful TUI client with a custom Tokyo Night theme.
+    - **ashuffle**: Auto-DJ that intelligently keeps the music playing.
+    - **mpd-mpris**: Integration with KDE/desktop media controls.
+    - **mpdscribble**: Automatic Last.fm scrobbling in the background.
+    - *(Includes an automated install script: `install_music_player.fish`)*
+- **Cmus**: Legacy terminal music player. 
 
 ## 🛠️ Installation
 
