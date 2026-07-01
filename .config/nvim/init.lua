@@ -14,7 +14,9 @@ vim.opt.rtp:prepend(lazypath)
 
 -- 2. Instalación de plugins
 require("lazy").setup({
-    
+   { ----- COLORES PARA ARCHIVOS .RON -----------
+      "ron-rs/ron.vim",
+   },
 	{  ----- TEMA COLORSCHEME NEOSOLARIZADO --------
 		"Tsuzat/NeoSolarized.nvim",
 		lazy = false, -- make sure we load this during startup if it is your main colorscheme
@@ -65,6 +67,7 @@ require("lazy").setup({
 					python = { "black" }, -- o "autopep8"
 					sql = { "sqlfluff" },
 					lua = { "stylua" },
+					ron = { "ronfmt" },
 				},
 			})
 
