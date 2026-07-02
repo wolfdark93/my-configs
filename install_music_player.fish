@@ -77,7 +77,7 @@ if not test -f $ASHUFFLE_SERVICE
     echo "After=mpd.service" >> $ASHUFFLE_SERVICE
     echo "" >> $ASHUFFLE_SERVICE
     echo "[Service]" >> $ASHUFFLE_SERVICE
-    echo "ExecStart=/usr/bin/ashuffle --queue-buffer 1" >> $ASHUFFLE_SERVICE
+    echo "ExecStart=/usr/bin/ashuffle --queue-buffer 1 -t play-on-startup=false" >> $ASHUFFLE_SERVICE
     echo "Restart=on-failure" >> $ASHUFFLE_SERVICE
     echo "" >> $ASHUFFLE_SERVICE
     echo "[Install]" >> $ASHUFFLE_SERVICE
